@@ -3,7 +3,7 @@ import java.util.*;
 public class DaySix {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> hmap = new HashMap<Integer, Integer>();
-        for (int i = 0; i < m.length(); i++) {
+        for (int i = 0; i < nums.length; i++) {
             if (!hmap.containsKey(nums[i])) {
                 hmap.put(nums[i], 1);
             } else {
