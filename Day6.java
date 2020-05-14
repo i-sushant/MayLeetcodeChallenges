@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class DaySix {
+public class Day6 {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> hmap = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
