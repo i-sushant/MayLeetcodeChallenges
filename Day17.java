@@ -35,7 +35,7 @@ public class Day17 {
         for (char x : p.toCharArray()) {
             freq[x - 'a']++;
         }
-
+        
         int i = 0, j = 0, count = p.length();
         while (j < s.length()) {
             if (freq[s.charAt(j++) - 'a']-- >= 1)
