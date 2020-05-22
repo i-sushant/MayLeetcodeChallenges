@@ -1,5 +1,9 @@
-class Solution {
-    public int countSquares(int[][] matrix) {
+class Day21 {
+    public static void main(String[] args) {
+        System.out.println(countSquares(new int[][] { { 0, 1, 1, 1 }, { 1, 1, 1, 1 }, { 0, 1, 1, 1 } }));
+    }
+
+    public static int countSquares(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
         int res = 0;
