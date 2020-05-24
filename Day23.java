@@ -24,4 +24,6 @@ public class Day23 {
         }
         return result.toArray(new int[result.size()][]);
     }
+
+    
 }
